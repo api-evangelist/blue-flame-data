@@ -1,8 +1,26 @@
 aid: blue-flame-data
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blue-flame-data.png
 name: Blue Flame Data
-description: Blue Flame Data is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Blue Flame Data was an early-2000s consumer-preference analytics company (founded around
+  2000 in New York City) that built web-based software for real-time measurement of consumer market
+  preferences, marketed as TrueChoice Preference Technology for quantifying the preference structures of
+  individual consumers and employees. The company appears to be defunct: its domain (blueflamedata.com)
+  resolves to a parked/unresponsive IP and does not serve a live site. It was surfaced to the API
+  Evangelist network via Battery Ventures portfolio mining. During enrichment no public API, developer
+  portal, documentation, SDKs, packages, MCP server, or other machine-readable artifacts could be
+  located, so no API artifacts were produced.
 url: https://raw.githubusercontent.com/api-evangelist/blue-flame-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: >-
+  Domain blueflamedata.com resolves to parked IP 89.31.143.1 and times out on HTTP/HTTPS;
+  no live developer surface found during 2026-07-18 enrichment.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Analytics
+- Consumer Insights
+- Market Research
+- Data
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
