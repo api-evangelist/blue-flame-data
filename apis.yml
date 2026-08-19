@@ -32,7 +32,7 @@ x-status: defunct
 x-status-detail: >-
   Domain blueflamedata.com resolves to parked IP 89.31.143.1 and times out on HTTP/HTTPS;
   no live developer surface found during 2026-07-18 enrichment.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
